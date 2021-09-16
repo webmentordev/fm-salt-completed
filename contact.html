@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/contact.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="shortcut icon" href="./img/SaltLogo.png" type="image/x-icon">
+    <script src="./js/btn.js"></script>
+    <script src="./js/parallax/parallax.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvUc9X_8sRTZfothq7ZwFzAMQglJyzxXM&callback=initMap&libraries=&v=weekly" async></script>
+    <title>Contact | FM Salt Official</title>
+</head>
+
+<body>
+
+    <!------------------>
+    <button class="top-btn" id="topBtn" onclick="goTop()"><i class="fas fa-caret-up"></i></button>
+
+    <!------------------>
+    <section class="top">
+        <div class="container">
+            <p><i class="fas fa-phone"></i><span>+920123456789</span> <i class="fas fa-envelope"></i>info@gama.com</p>
+            <p>Manufacturer & Exporter of Natural Salt Crystal Lamps & Salt Products.</p>
+        </div>
+    </section>
+
+    <!------------------>
+    <section class="sidebar" id="sidebar">
+        <button class="closeBtn" onclick="closeNav()"><i class="fas fa-times fa-fw"></i></button>
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="#">Our Products</a>
+            <a href="#">About Salt Lamps</a>
+            <a href="#">Lamp Care</a>
+            <a href="#">Contact</a>
+        </ul>
+    </section>
+
+
+    <!------------------>
+    <section class="about" data-parallax="scroll" data-image-src="./img/header1.jpg">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="nav">
+                <div class="box">
+                    <ul>
+                        <li class="strong">Himalayan Salt</li>
+                        <li>By FM International</li>
+                    </ul>
+                </div>
+                <ul class="links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="#">Our Products</a>
+                    <a href="about.html">About Salt Lamps</a>
+                    <a href="about.html">Lamp Care</a>
+                    <a href="contact.html">Contact</a>
+                </ul>
+                <button class="responsive" onclick="openNav()">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </button>
+            </div>
+            <div class="header">
+                <h1>Home / Contact</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------->
+    <section class="contact">
+        <div class="container">
+            <h1><span>Contact</span> Information.</h1>
+            <div class="grid">
+                <div class="box">
+                    <h2>Head Office</h2>
+                    <p>Mr. Rajid Raheel Sheikh (Propriter) 352 Nargis Block, Allama Iqbal <br> Town Lahore Pakistan.</p>
+                    <ul>
+                        <li><i class="fas fa-mobile fa-fw"></i> 092-300-4259212</li>
+                        <li><i class="fab fa-skype fa-fw"></i> Raheel5772</li>
+                        <li><i class="fab fa-whatsapp fa-fw"></i> 92 300 4259212</li>
+                        <li><i class="fab fa-whatsapp fa-fw"></i> 92 342 1114333</li>
+                        <li><i class="fas fa-envelope fa-fw"></i> info@gamasalt.com</li>
+                        <li><i class="fas fa-envelope fa-fw"></i> sales@gamasalt.com</li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h2>USA Warehouse</h2>
+                    <p>Nadeem AzeemGAMA International (Pak) USA Address: GAMMA Salt Crystals LLC. (USA) 2370 S.W Archer Rd. Unit 63 Gainesville,</p>
+                    <ul>
+                        <li>(USA) 2370 S.W Archer Rd. Unit 63</li>
+                        <li>Gainesville,</li>
+                        <li>FL. 32608 USA</li>
+                        <li>Phone: 1-786-569-9429</li>
+                        <li><strong>Please call by using WhatsApp</strong></li>
+                        <li>Pakistan +92-300-425-9212</li>
+                        <li>Colombia +57 304-671-4050</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------->
+    <div id="map"></div>
+
+    <!-------------------------->
+    <section class="particles-js" id="particles-js">
+        <div class="overlay">
+            <div class="container">
+                <div class="box">
+                    <h2>Gama International</h2>
+                    <p>We are a leading manufacturer and bulk order supplier of Salt Crystal Products. Our factory is located near Lahore, Pakistan. We have been manufacturing salt lamps for over a decade. Manufacturing and wholesale of Himalayan Salt products
+                        is our only business, and we can proudly say that we are the best. <br><br> An ISO 9001 Certified Company.</p>
+                    <img src="./img/certificate.png">
+                </div>
+
+                <div class="box">
+                    <h2>Our Products</h2>
+                    <ul>
+                        <a href="#"><i class="fas fa-caret-right"></i> Natural Shaped Salt Lamps</a>
+                        <a href="#"><i class="fas fa-caret-right"></i> Natural Shaped Diffuser Lamps</a>
+                        <a href="#"><i class="fas fa-caret-right"></i> Feng Shui and Hand Carved</a>
+                        <a href="#"><i class="fas fa-caret-right"></i> Himalayan Salt Candle Holders</a>
+                        <a href="#"><i class="fas fa-caret-right"></i> Animal Salt Licks</a>
+                        <a href="#"><i class="fas fa-caret-right"></i> Consumption Salt</a>
+                        <a href="#"><i class="fas fa-caret-right"></i> Salt Bricks and Plates</a>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h2>Contact Details</h2>
+                    <ul>
+                        <li><strong>Address:</strong></li>
+                        <li>Kot Abdul Malik Exit</li>
+                        <li>New Motorway City,</li>
+                        <li>Dera Nazar Misson Pind</li>
+                        <li>Ferozwala, Lahore. Pakistan.</li>
+                    </ul>
+                    <ul>
+                        <li><i class="fas fa-phone fa-fw"></i> 092 342 111 4333</li>
+                        <li><i class="fas fa-mobile fa-fw"></i> 092-300-4259212</li>
+                        <li><i class="fab fa-whatsapp fa-fw"></i> 092-300-4259212</li>
+                        <li><i class="fab fa-skype fa-fw"></i> Raheel5772</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------>
+    <section class="footer">
+        <div class="container">
+            <p>Copyrights &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> all Reserved | Created with <i class="fas fa-heart"></i> By
+                <a href="https://www.ahmerdev.online" target="+blank">AhmerDev & HamzaAwan</a>
+            </p>
+        </div>
+    </section>
+</body>
+
+<script>
+    AOS.init();
+</script>
+<script src="./js/particles.js"></script>
+<script src="./js/app.js"></script>
+<script>
+    var count_particles, stats, update;
+    stats = new Stats;
+    stats.setMode(0);
+    stats.domElement.style.position = 'absolute';
+    stats.domElement.style.left = '0px';
+    stats.domElement.style.top = '0px';
+    document.body.appendChild(stats.domElement);
+    count_particles = document.querySelector('.js-count-particles');
+    update = function() {
+        stats.begin();
+        stats.end();
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+            count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+        }
+        requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
+</script>
+
+
+<script>
+    function initMap() {
+        const uluru = {
+            lat: 31.557252,
+            lng: 74.339430
+        };
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 15,
+            center: uluru,
+        });
+        const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+        });
+    }
+</script>
+
+</html>
